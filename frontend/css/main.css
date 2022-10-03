@@ -1392,9 +1392,17 @@ textarea.w-input, textarea.w-select {
     overflow: hidden;
 }
 
-.w-lightbox-view{position:absolute;width:100vw;height:100vh;opacity:0}
+.w-lightbox-view {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+}
 
-.w-lightbox-view:before{content:"";height:100vh}
+.w-lightbox-view:before {
+    content: "";
+    height: 100vh;
+}
 
 .w-lightbox-group,.w-lightbox-group .w-lightbox-view,.w-lightbox-group .w-lightbox-view:before{height:86vh}
 
