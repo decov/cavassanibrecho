@@ -1,0 +1,17 @@
+{
+  "name": "cavassani.brecho",
+  "version": "1.0.0",
+  "description": "arquivo package.json do projeto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decov/cavassanibrecho.git"
+  },
+  "author": "decova",
+  "bugs": {
+    "url": "https://github.com/decov/cavassanibrecho/issues"
+  },
+  "homepage": "https://github.com/decov/cavassanibrecho#readme",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
