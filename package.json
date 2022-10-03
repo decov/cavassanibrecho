@@ -12,6 +12,7 @@
   },
   "homepage": "https://github.com/decov/cavassanibrecho#readme",
   "devDependencies": {
+    "eslint": "^8.24.0",
     "prettier": "2.7.1"
   }
 }
