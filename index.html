@@ -54,6 +54,9 @@
         <!-- linkando cms filter externamente -->
         <script async src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsfilter@1/cmsfilter.js"></script>
 
+        <!-- zoom para 80% (nativamente) -->
+        <script src="./frontend/js/zoom.js"></script>
+
         <!-- configurando gtag -->
         <script type="text/javascript">
             window.dataLayer = window.dataLayer || [];
@@ -74,6 +77,11 @@
             if (localStorage.getItem('dark-mode') !== null) {
                 document.documentElement.classList.add("dark-mode");
             }
+        </script>
+
+        <!-- fazendo com que a página seja carregada em 80% de zoom -->
+        <script>
+            document.body.style.zoom = "80%"
         </script>
 
         <!-- estilos css -->

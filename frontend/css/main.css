@@ -1,6 +1,13 @@
 * {
     -ms-overflow-style: none;
     scrollbar-width: none;
+
+    zoom: 80%;
+    user-zoom: 80%;
+    max-zoom: 80%;
+
+    transform: scale(0.8);
+    -moz-transform: scale(0.8);
 }
 
 *::-webkit-scrollbar {
@@ -191,6 +198,7 @@ th {
     font-weight: 400;
     font-style: normal;
 }
+
 [class*=" w-icon-"],
 [class^="w-icon-"] {
     font-family: webflow-icons !important;
