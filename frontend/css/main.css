@@ -1,12 +1,6 @@
 * {
     -ms-overflow-style: none;
     scrollbar-width: none;
-    
-    user-zoom: 80%;
-    max-zoom: 80%;
-
-    transform: scale(0.8);
-    -moz-transform: scale(0.8);
 }
 
 *::-webkit-scrollbar {
@@ -20,8 +14,6 @@ html {
     -webkit-text-size-adjust: 100%;
 
     height: 100%;
-
-    zoom: 80%;
 }
 
 article,
